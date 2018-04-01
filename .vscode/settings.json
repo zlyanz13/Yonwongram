@@ -1,6 +1,7 @@
 {
-    "python.formatting.provider": "yapf",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.pythonPath": "C:\\Users\\Yon Wonze\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "python.linting.pylintPath": "C:\\Users\\Yon Wonze\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\Yn_Wnz\\.local\\share\\virtualenvs\\bsdir-kftJQq_0\\bin\\pylint",
+    "python.autoComplete.extraPaths": [
+        "C:\\Users\\Yon Wonze\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\Yn_Wnz\\.local\\share\\virtualenvs\\bsdir-kftJQq_0\\lib\\python3.5\\site-packages"
+    ],
+    "python.linting.pylintEnabled": false
 }
