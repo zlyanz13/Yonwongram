@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Language: kr"
+
+#: src/components/Footer/index.js
+msgid "About Us"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Support"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Blog"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Press"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "API"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "JOBS"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "PRIVACY"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "DIRECTORY"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Language"
+msgstr ""
+

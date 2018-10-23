@@ -1,0 +1,59 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box {
+        @include boxBorder(no);
+        border: 0px;
+        border-radius: 7px;
+        width: 100%;
+        max-width: $max-card-width;
+        .header {
+            display: flex;
+            padding: 14px 0;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px solid $light-grey;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            background-color: #ffb12f;
+            .icon {
+                margin-left: 7px;
+            }
+            .title {
+                order: 1;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: 600;
+                font-size: $big-font-size;
+            }
+        }
+        .content {
+            min-height: 300px;
+            width: 100%;
+            max-width: $max-card-width;
+            height: 100%;
+            display: flex;
+            margin-bottom: 0px;
+            flex-direction: column;
+            align-items: flex-start;
+            @include breakpoint('phone') {
+                background-color: transparent;
+                border: 0;
+                margin-bottom: 30px;
+            }
+        }
+        .loading {
+            min-height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

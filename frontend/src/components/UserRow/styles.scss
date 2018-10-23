@@ -1,0 +1,53 @@
+.user-info {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid $border-color;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    .profile-image {
+        width: 30px;
+        max-width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .user-name {
+        width: 465px;
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        .user-id {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .user-nick {
+            font-size: $small-font-size;
+        }
+    }
+    .button {
+        max-width: 75px;
+        min-width: 60px;
+        min-height: 25px;
+        margin-right: 15px;
+        @include blueButton();
+    }
+}
+
+/*
+.user-list {
+  width: 100%;
+  max-width: $max-card-width;
+  height: 100%;
+  display: flex;
+  margin-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  @include breakpoint('phone') {
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 30px;
+  }
+*/

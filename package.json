@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-redux": "^5.0.7",
+    "react-star-ratings": "^2.3.0",
+    "react-textarea-autosize": "^7.0.4",
+    "reactotron-react-js": "^1.13.0",
+    "redux": "^3.7.2"
+  }
+}

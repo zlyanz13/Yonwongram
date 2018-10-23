@@ -1,0 +1,54 @@
+.navigation {
+    width: 100%;
+    @include boxBorder(no);
+    display: flex;
+    justify-content: center;
+    background-color: #FFB12F;
+    margin-bottom : 50px;
+    .inner {
+        max-width: $max-page-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 77px;
+        padding: 25px 40px;
+        .column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 33%;
+            &:first-child {
+                justify-content: flex-start;
+            }
+            &:last-child {
+                justify-content: flex-end;
+            }
+            .logo {
+                max-width: 215px;
+            }
+            .nav-icon {
+                margin-left: 15px;
+                margin-right: 15px;
+                cursor: pointer;
+            }
+            .search-input {
+                width: 215px;
+                box-sizing: border-box;
+                padding: 5px;
+                border: solid 1px #dbdbdb;
+                border-radius: 3px;
+                background-color: #fafafa;
+                font-size: $normal-font-size;
+                font-weight: 300;
+                &::placeholder {
+                    color: $dark-gray;
+                }
+                &:focus {
+                    outline: none;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

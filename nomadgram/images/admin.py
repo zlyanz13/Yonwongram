@@ -22,6 +22,7 @@ class ImageAdmin(admin.ModelAdmin):
         'location',
         'caption',
         'creator', 
+        'stars',
         'created_at', 
         'updated_at',
     )

@@ -2,7 +2,8 @@ from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 from nomadgram.users import models as user_models #to prevent Conflicts Using 'as'
 from taggit.managers import TaggableManager
-
+from django.contrib.humanize.templatetags.humanize import naturaltime
+from django.core.validators import MaxValueValidator, MinValueValidator
 # Create your models here.
 
 @python_2_unicode_compatible
@@ -25,6 +26,7 @@ class Image(TimeStampedModel):
     location = models.CharField(max_length = 140)
     caption = models.TextField()
     creator = models.ForeignKey(user_models.User, on_delete =models.SET_NULL, null = True,  related_name='images')
+    stars = models.IntegerField(default = 0, validators=[MinValueValidator(0), MaxValueValidator(5)])
     tags = TaggableManager()
 
     @property
@@ -34,6 +36,10 @@ class Image(TimeStampedModel):
     @property
     def comment_count(self):
         return self.comments.all().count()
+
+    @property
+    def natural_time(self):
+        return naturaltime(self.created_at)
 
     def __str__(self):
         return '{} - {}'.format(self.location, self.caption)

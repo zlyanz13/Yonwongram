@@ -1,0 +1,99 @@
+.form-component {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    .form {
+        display: flex;
+        flex-direction: column;
+        input[type="submit"] {
+            margin-top: 10px
+        }
+        .text-input {
+            border: 1px solid #dfadad;
+            border-radius: 3px;
+            background-color: $bg-color;
+            margin-bottom: 5px;
+            font-size: $normal-font-size;
+            padding: 9px 0 7px 8px;
+            font-weight: 400;
+        }
+    }
+    .button {
+        @include blueButton();
+        i {
+            font-size: 20px;
+            padding-top: 3px;
+            padding-right: 3px;
+        }
+        svg {
+            margin-right: 10px;
+            padding-top: 3px;
+        }
+    }
+    .divider {
+        text-transform: uppercase;
+        color: $dark-gray;
+        font-weight: 600;
+        margin: 20px 0;
+        margin-bottom: 20px;
+        position: relative;
+        &:before {
+            content: "";
+            width: 42%;
+            position: absolute;
+            background-color: $dark-gray;
+            height: 1px;
+            left: 0px;
+            top: 6px;
+            opacity: 0.8;
+        }
+        &:after {
+            content: " ";
+            width: 42%;
+            position: absolute;
+            background-color: $dark-gray;
+            height: 1px;
+            right: 0px;
+            top: 6px;
+            opacity: 0.8;
+        }
+    }
+    .facebook-link {
+        color: #385185;
+        justify-content: center;
+        margin-bottom: 30px;
+        cursor: pointer;
+        background-color: white;
+        font-size: $normal-font-size;
+        border: none;
+        svg {
+            margin-right: 5px;
+        }
+        &:focus,
+        &:active {
+            outline: none,
+        }
+    }
+    .forgot-link {
+        font-size: $small-font-size;
+        color: $dark-blue;
+    }
+    .signup-header {
+        font-size: 17px;
+        color: $dark-gray;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .terms {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 20px;
+        color: $dark-gray;
+        span {
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}
