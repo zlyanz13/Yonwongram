@@ -5,7 +5,7 @@
         display: flex;
         flex-direction: row;
         .stars {
-            margin-right: 310px;
+            margin-right: 350px;
         }
         .likes {
             font-weight: 600;
@@ -15,6 +15,7 @@
             cursor: pointer;
         }
         .icon {
+            justify-content: flex-end;
             cursor: pointer;
             &:first-child {
                 margin-right: 10px;

@@ -27,9 +27,6 @@ const PhotoActions = (props, context) => (
           ? <Ionicon icon="md-heart" fontSize="28px" color="#EB4B59" />
           : <Ionicon icon="md-heart-outline" fontSize="28px" color="#EB4B59" />}
       </span>
-      <span className={styles.icon}>
-        <Ionicon icon="ios-chatbubbles-outline" fontSize="28px" color="black" />
-      </span>
     </div>
 
   </div>

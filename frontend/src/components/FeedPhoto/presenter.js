@@ -22,7 +22,7 @@ const FeedPhoto = (props, context) => {
         </div>
       </header>
 
-      <img src={props.file} alt={props.caption} className={styles.realPhoto} />;
+      <img src={props.file} alt={props.caption} className={styles.realPhoto} />
 
       <div className={styles.meta}>
         <PhotoActions

@@ -85,6 +85,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'nomadgram.users.apps.UsersConfig',
     'nomadgram.images.apps.ImagesConfig',
+    'nomadgram.locations.apps.LocationsConfig',
     'nomadgram.notifications.apps.NotificationsConfig',
     # Your stuff: custom apps go here
 ]
