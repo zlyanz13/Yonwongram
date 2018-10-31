@@ -1,7 +1,6 @@
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 from nomadgram.users import models as user_models #to prevent Conflicts Using 'as'
-from nomadgram.images import models as image_models
 from taggit.managers import TaggableManager
 from django.contrib.humanize.templatetags.humanize import naturaltime
 from django.core.validators import MaxValueValidator, MinValueValidator
@@ -18,7 +17,6 @@ class Round(Func):
 class Station(models.Model):
     
     """Comment Model"""
-
     line_num = models.CharField(max_length= 5)
     station_cd = models.CharField(max_length=40)  
     station_nm = models.CharField(max_length=40)      
@@ -37,7 +35,8 @@ class Location(models.Model):
 
     @property
     def starpoint_avg(self):
-        return round(self.starpoints.all().aggregate(Avg('points')).get('points__avg'),2)
+        p = self.starpoints.all().aggregate(Avg('points')).get('points__avg')
+        return round(p,2) if p else 0
 
     def __str__(self):
         return '{} : {}역 - Line {}'.format(self.name, self.station.station_nm, self.station.line_num)
@@ -50,5 +49,14 @@ class Starpoint(models.Model):
     creator = models.ForeignKey(user_models.User, on_delete=models.PROTECT, null = True)
     location = models.ForeignKey(Location, on_delete=models.SET_NULL, null = True, related_name = 'starpoints')
     
+    def save(self, *args, **kwargs):
+        try :
+            obj=Starpoint.objects.get(creator=self.creator, location=self.location)
+            if obj:
+                Starpoint.objects.filter(pk=obj.pk).update(points=self.points)
+                return;
+        except Starpoint.DoesNotExist : 
+            super(Starpoint, self).save(*args, **kwargs)
+
     def __str__(self):
         return 'User : {} - Location : {}'.format(self.creator.username, self.location.name)

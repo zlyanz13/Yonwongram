@@ -383,7 +383,7 @@
     "model": "locations.station",
     "pk": 39,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1008",
       "station_nm": "이촌",
       "fr_code": "K111"
@@ -393,7 +393,7 @@
     "model": "locations.station",
     "pk": 40,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1009",
       "station_nm": "서빙고",
       "fr_code": "K112"
@@ -403,7 +403,7 @@
     "model": "locations.station",
     "pk": 41,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1010",
       "station_nm": "한남",
       "fr_code": "K113"
@@ -413,7 +413,7 @@
     "model": "locations.station",
     "pk": 42,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1012",
       "station_nm": "응봉",
       "fr_code": "K115"
@@ -423,7 +423,7 @@
     "model": "locations.station",
     "pk": 43,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1013",
       "station_nm": "왕십리",
       "fr_code": "K116"
@@ -1153,7 +1153,7 @@
     "model": "locations.station",
     "pk": 116,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1275",
       "station_nm": "일산",
       "fr_code": "K326"
@@ -1163,7 +1163,7 @@
     "model": "locations.station",
     "pk": 117,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1276",
       "station_nm": "탄현",
       "fr_code": "K327"
@@ -1173,7 +1173,7 @@
     "model": "locations.station",
     "pk": 118,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1279",
       "station_nm": "금릉",
       "fr_code": "K330"
@@ -1183,7 +1183,7 @@
     "model": "locations.station",
     "pk": 119,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1280",
       "station_nm": "금촌",
       "fr_code": "K331"
@@ -1193,7 +1193,7 @@
     "model": "locations.station",
     "pk": 120,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1283",
       "station_nm": "파주",
       "fr_code": "K334"
@@ -1203,7 +1203,7 @@
     "model": "locations.station",
     "pk": 121,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1284",
       "station_nm": "문산",
       "fr_code": "K335"
@@ -1213,7 +1213,7 @@
     "model": "locations.station",
     "pk": 122,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "1291",
       "station_nm": "서울",
       "fr_code": "A01"
@@ -1223,7 +1223,7 @@
     "model": "locations.station",
     "pk": 123,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "1293",
       "station_nm": "홍대입구",
       "fr_code": "A03"
@@ -1233,7 +1233,7 @@
     "model": "locations.station",
     "pk": 124,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1308",
       "station_nm": "광운대",
       "fr_code": "P119"
@@ -1243,7 +1243,7 @@
     "model": "locations.station",
     "pk": 125,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1309",
       "station_nm": "상봉",
       "fr_code": "P120"
@@ -1253,7 +1253,7 @@
     "model": "locations.station",
     "pk": 126,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1310",
       "station_nm": "망우",
       "fr_code": "P121"
@@ -1263,7 +1263,7 @@
     "model": "locations.station",
     "pk": 127,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1312",
       "station_nm": "갈매",
       "fr_code": "P123"
@@ -1273,7 +1273,7 @@
     "model": "locations.station",
     "pk": 128,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1313",
       "station_nm": "별내",
       "fr_code": "P124"
@@ -1283,7 +1283,7 @@
     "model": "locations.station",
     "pk": 129,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1315",
       "station_nm": "사릉",
       "fr_code": "P126"
@@ -1293,7 +1293,7 @@
     "model": "locations.station",
     "pk": 130,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1316",
       "station_nm": "금곡",
       "fr_code": "P127"
@@ -1303,7 +1303,7 @@
     "model": "locations.station",
     "pk": 131,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1318",
       "station_nm": "천마산",
       "fr_code": "P129"
@@ -1313,7 +1313,7 @@
     "model": "locations.station",
     "pk": 132,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1319",
       "station_nm": "마석",
       "fr_code": "P130"
@@ -1323,7 +1323,7 @@
     "model": "locations.station",
     "pk": 133,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1321",
       "station_nm": "청평",
       "fr_code": "P132"
@@ -1333,7 +1333,7 @@
     "model": "locations.station",
     "pk": 134,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1322",
       "station_nm": "상천",
       "fr_code": "P133"
@@ -1343,7 +1343,7 @@
     "model": "locations.station",
     "pk": 135,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1324",
       "station_nm": "굴봉산",
       "fr_code": "P135"
@@ -1353,7 +1353,7 @@
     "model": "locations.station",
     "pk": 136,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1325",
       "station_nm": "백양리",
       "fr_code": "P136"
@@ -1363,7 +1363,7 @@
     "model": "locations.station",
     "pk": 137,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1328",
       "station_nm": "남춘천",
       "fr_code": "P139"
@@ -2643,7 +2643,7 @@
     "model": "locations.station",
     "pk": 265,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1846",
       "station_nm": "수원",
       "fr_code": "K245"
@@ -2653,7 +2653,7 @@
     "model": "locations.station",
     "pk": 266,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1847",
       "station_nm": "서울숲",
       "fr_code": "K211"
@@ -2663,7 +2663,7 @@
     "model": "locations.station",
     "pk": 267,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1848",
       "station_nm": "압구정로데오",
       "fr_code": "K212"
@@ -2673,7 +2673,7 @@
     "model": "locations.station",
     "pk": 268,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1850",
       "station_nm": "선정릉",
       "fr_code": "K214"
@@ -2683,7 +2683,7 @@
     "model": "locations.station",
     "pk": 269,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1851",
       "station_nm": "가천대",
       "fr_code": "K223"
@@ -2693,7 +2693,7 @@
     "model": "locations.station",
     "pk": 270,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1854",
       "station_nm": "야탑",
       "fr_code": "K226"
@@ -2703,7 +2703,7 @@
     "model": "locations.station",
     "pk": 271,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1856",
       "station_nm": "수내",
       "fr_code": "K229"
@@ -2713,7 +2713,7 @@
     "model": "locations.station",
     "pk": 272,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1857",
       "station_nm": "정자",
       "fr_code": "K230"
@@ -2723,7 +2723,7 @@
     "model": "locations.station",
     "pk": 273,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1859",
       "station_nm": "오리",
       "fr_code": "K232"
@@ -2733,7 +2733,7 @@
     "model": "locations.station",
     "pk": 274,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1860",
       "station_nm": "이매",
       "fr_code": "K227"
@@ -2743,7 +2743,7 @@
     "model": "locations.station",
     "pk": 275,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1862",
       "station_nm": "죽전",
       "fr_code": "K233"
@@ -2753,7 +2753,7 @@
     "model": "locations.station",
     "pk": 276,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1863",
       "station_nm": "구성",
       "fr_code": "K235"
@@ -2763,7 +2763,7 @@
     "model": "locations.station",
     "pk": 277,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1865",
       "station_nm": "기흥",
       "fr_code": "K237"
@@ -2773,7 +2773,7 @@
     "model": "locations.station",
     "pk": 278,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1866",
       "station_nm": "상갈",
       "fr_code": "K238"
@@ -2783,7 +2783,7 @@
     "model": "locations.station",
     "pk": 279,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1868",
       "station_nm": "영통",
       "fr_code": "K240"
@@ -2793,7 +2793,7 @@
     "model": "locations.station",
     "pk": 280,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1869",
       "station_nm": "망포",
       "fr_code": "K241"
@@ -2803,7 +2803,7 @@
     "model": "locations.station",
     "pk": 281,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1871",
       "station_nm": "수원시청",
       "fr_code": "K243"
@@ -2813,7 +2813,7 @@
     "model": "locations.station",
     "pk": 282,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1879",
       "station_nm": "월곶",
       "fr_code": "K252"
@@ -2823,7 +2823,7 @@
     "model": "locations.station",
     "pk": 283,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1880",
       "station_nm": "소래포구",
       "fr_code": "K253"
@@ -2833,7 +2833,7 @@
     "model": "locations.station",
     "pk": 284,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1881",
       "station_nm": "인천논현",
       "fr_code": "K254"
@@ -2843,7 +2843,7 @@
     "model": "locations.station",
     "pk": 285,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1883",
       "station_nm": "남동인더스파크",
       "fr_code": "K256"
@@ -2853,7 +2853,7 @@
     "model": "locations.station",
     "pk": 286,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1884",
       "station_nm": "원인재",
       "fr_code": "K257"
@@ -2863,7 +2863,7 @@
     "model": "locations.station",
     "pk": 287,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1885",
       "station_nm": "연수",
       "fr_code": "K258"
@@ -2983,7 +2983,7 @@
     "model": "locations.station",
     "pk": 299,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1026",
       "station_nm": "구룡",
       "fr_code": "k218"
@@ -2993,7 +2993,7 @@
     "model": "locations.station",
     "pk": 300,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1027",
       "station_nm": "개포동",
       "fr_code": "k219"
@@ -3003,7 +3003,7 @@
     "model": "locations.station",
     "pk": 301,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1028",
       "station_nm": "대모산입구",
       "fr_code": "k220"
@@ -3013,7 +3013,7 @@
     "model": "locations.station",
     "pk": 302,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1031",
       "station_nm": "복정",
       "fr_code": "K222"
@@ -3033,7 +3033,7 @@
     "model": "locations.station",
     "pk": 304,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1200",
       "station_nm": "회기",
       "fr_code": "K118"
@@ -3043,7 +3043,7 @@
     "model": "locations.station",
     "pk": 305,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1201",
       "station_nm": "중랑",
       "fr_code": "K119"
@@ -3053,7 +3053,7 @@
     "model": "locations.station",
     "pk": 306,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1202",
       "station_nm": "상봉",
       "fr_code": "K120"
@@ -3063,7 +3063,7 @@
     "model": "locations.station",
     "pk": 307,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1204",
       "station_nm": "양원",
       "fr_code": "K122"
@@ -3073,7 +3073,7 @@
     "model": "locations.station",
     "pk": 308,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1205",
       "station_nm": "구리",
       "fr_code": "K123"
@@ -3083,7 +3083,7 @@
     "model": "locations.station",
     "pk": 309,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1207",
       "station_nm": "양정",
       "fr_code": "K125"
@@ -3093,7 +3093,7 @@
     "model": "locations.station",
     "pk": 310,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1208",
       "station_nm": "덕소",
       "fr_code": "K126"
@@ -3103,7 +3103,7 @@
     "model": "locations.station",
     "pk": 311,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1210",
       "station_nm": "팔당",
       "fr_code": "K128"
@@ -3113,7 +3113,7 @@
     "model": "locations.station",
     "pk": 312,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1211",
       "station_nm": "운길산",
       "fr_code": "K129"
@@ -3123,7 +3123,7 @@
     "model": "locations.station",
     "pk": 313,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1215",
       "station_nm": "아신",
       "fr_code": "K133"
@@ -3133,7 +3133,7 @@
     "model": "locations.station",
     "pk": 314,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1216",
       "station_nm": "오빈",
       "fr_code": "K134"
@@ -3143,7 +3143,7 @@
     "model": "locations.station",
     "pk": 315,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1219",
       "station_nm": "용문",
       "fr_code": "K137"
@@ -3153,7 +3153,7 @@
     "model": "locations.station",
     "pk": 316,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1249",
       "station_nm": "대곡",
       "fr_code": "K322"
@@ -3163,7 +3163,7 @@
     "model": "locations.station",
     "pk": 317,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1252",
       "station_nm": "신촌(경의중앙선)",
       "fr_code": "P312"
@@ -3173,7 +3173,7 @@
     "model": "locations.station",
     "pk": 318,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1262",
       "station_nm": "공덕",
       "fr_code": "K312"
@@ -3183,7 +3183,7 @@
     "model": "locations.station",
     "pk": 319,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1263",
       "station_nm": "서강대",
       "fr_code": "K313"
@@ -3193,7 +3193,7 @@
     "model": "locations.station",
     "pk": 320,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1265",
       "station_nm": "가좌",
       "fr_code": "K315"
@@ -3203,7 +3203,7 @@
     "model": "locations.station",
     "pk": 321,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1266",
       "station_nm": "디지털미디어시티",
       "fr_code": "K316"
@@ -3213,7 +3213,7 @@
     "model": "locations.station",
     "pk": 322,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1268",
       "station_nm": "화전",
       "fr_code": "K318"
@@ -3223,7 +3223,7 @@
     "model": "locations.station",
     "pk": 323,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1270",
       "station_nm": "행신",
       "fr_code": "K320"
@@ -3233,7 +3233,7 @@
     "model": "locations.station",
     "pk": 324,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1272",
       "station_nm": "곡산",
       "fr_code": "K323"
@@ -3243,7 +3243,7 @@
     "model": "locations.station",
     "pk": 325,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1273",
       "station_nm": "백마",
       "fr_code": "K324"
@@ -3383,7 +3383,7 @@
     "model": "locations.station",
     "pk": 339,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1501",
       "station_nm": "판교",
       "fr_code": "K410"
@@ -3393,7 +3393,7 @@
     "model": "locations.station",
     "pk": 340,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1877",
       "station_nm": "오이도",
       "fr_code": "K250"
@@ -3483,7 +3483,7 @@
     "model": "locations.station",
     "pk": 349,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1502",
       "station_nm": "이매",
       "fr_code": "K411"
@@ -3493,7 +3493,7 @@
     "model": "locations.station",
     "pk": 350,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1503",
       "station_nm": "삼동",
       "fr_code": "K412"
@@ -3503,7 +3503,7 @@
     "model": "locations.station",
     "pk": 351,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1504",
       "station_nm": "경기광주",
       "fr_code": "K413"
@@ -3513,7 +3513,7 @@
     "model": "locations.station",
     "pk": 352,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1505",
       "station_nm": "초월",
       "fr_code": "K414"
@@ -3523,7 +3523,7 @@
     "model": "locations.station",
     "pk": 353,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4210",
       "station_nm": "청라국제도시",
       "fr_code": "A071"
@@ -3803,7 +3803,7 @@
     "model": "locations.station",
     "pk": 381,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1269",
       "station_nm": "강매",
       "fr_code": "K319"
@@ -4513,7 +4513,7 @@
     "model": "locations.station",
     "pk": 452,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3110",
       "station_nm": "계양",
       "fr_code": "I110"
@@ -4523,7 +4523,7 @@
     "model": "locations.station",
     "pk": 453,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3112",
       "station_nm": "박촌",
       "fr_code": "I112"
@@ -4533,7 +4533,7 @@
     "model": "locations.station",
     "pk": 454,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3113",
       "station_nm": "임학",
       "fr_code": "I113"
@@ -4543,7 +4543,7 @@
     "model": "locations.station",
     "pk": 455,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3116",
       "station_nm": "작전",
       "fr_code": "I116"
@@ -4553,7 +4553,7 @@
     "model": "locations.station",
     "pk": 456,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3117",
       "station_nm": "갈산",
       "fr_code": "I117"
@@ -4563,7 +4563,7 @@
     "model": "locations.station",
     "pk": 457,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3118",
       "station_nm": "부평구청",
       "fr_code": "I118"
@@ -4573,7 +4573,7 @@
     "model": "locations.station",
     "pk": 458,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3120",
       "station_nm": "부평",
       "fr_code": "I120"
@@ -4583,7 +4583,7 @@
     "model": "locations.station",
     "pk": 459,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3121",
       "station_nm": "동수",
       "fr_code": "I121"
@@ -4593,7 +4593,7 @@
     "model": "locations.station",
     "pk": 460,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3123",
       "station_nm": "간석오거리",
       "fr_code": "I123"
@@ -4603,7 +4603,7 @@
     "model": "locations.station",
     "pk": 461,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3124",
       "station_nm": "인천시청",
       "fr_code": "I124"
@@ -4613,7 +4613,7 @@
     "model": "locations.station",
     "pk": 462,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3125",
       "station_nm": "예술회관",
       "fr_code": "I125"
@@ -4623,7 +4623,7 @@
     "model": "locations.station",
     "pk": 463,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3127",
       "station_nm": "문학경기장",
       "fr_code": "I127"
@@ -4633,7 +4633,7 @@
     "model": "locations.station",
     "pk": 464,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3128",
       "station_nm": "선학",
       "fr_code": "I128"
@@ -4643,7 +4643,7 @@
     "model": "locations.station",
     "pk": 465,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3129",
       "station_nm": "신연수",
       "fr_code": "I129"
@@ -4653,7 +4653,7 @@
     "model": "locations.station",
     "pk": 466,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3131",
       "station_nm": "동춘",
       "fr_code": "I131"
@@ -4663,7 +4663,7 @@
     "model": "locations.station",
     "pk": 467,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3132",
       "station_nm": "동막",
       "fr_code": "I132"
@@ -4673,7 +4673,7 @@
     "model": "locations.station",
     "pk": 468,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3135",
       "station_nm": "지식정보단지",
       "fr_code": "I135"
@@ -4683,7 +4683,7 @@
     "model": "locations.station",
     "pk": 469,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3136",
       "station_nm": "인천대입구",
       "fr_code": "I136"
@@ -4693,7 +4693,7 @@
     "model": "locations.station",
     "pk": 470,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3138",
       "station_nm": "국제업무지구",
       "fr_code": "I138"
@@ -4903,7 +4903,7 @@
     "model": "locations.station",
     "pk": 491,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4207",
       "station_nm": "김포공항",
       "fr_code": "A05"
@@ -4913,7 +4913,7 @@
     "model": "locations.station",
     "pk": 492,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4209",
       "station_nm": "검암",
       "fr_code": "A07"
@@ -4923,7 +4923,7 @@
     "model": "locations.station",
     "pk": 493,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4211",
       "station_nm": "운서",
       "fr_code": "A08"
@@ -4933,7 +4933,7 @@
     "model": "locations.station",
     "pk": 494,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4213",
       "station_nm": "인천국제공항",
       "fr_code": "A10"
@@ -4943,7 +4943,7 @@
     "model": "locations.station",
     "pk": 495,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4307",
       "station_nm": "강남",
       "fr_code": "D7"
@@ -4953,7 +4953,7 @@
     "model": "locations.station",
     "pk": 496,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4308",
       "station_nm": "양재",
       "fr_code": "D8"
@@ -4963,7 +4963,7 @@
     "model": "locations.station",
     "pk": 497,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4311",
       "station_nm": "판교",
       "fr_code": "D11"
@@ -4973,7 +4973,7 @@
     "model": "locations.station",
     "pk": 498,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4312",
       "station_nm": "정자",
       "fr_code": "D12"
@@ -4983,7 +4983,7 @@
     "model": "locations.station",
     "pk": 499,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4502",
       "station_nm": "강남대",
       "fr_code": "Y111"
@@ -4993,7 +4993,7 @@
     "model": "locations.station",
     "pk": 500,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4503",
       "station_nm": "지석",
       "fr_code": "Y112"
@@ -5003,7 +5003,7 @@
     "model": "locations.station",
     "pk": 501,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4505",
       "station_nm": "동백",
       "fr_code": "Y114"
@@ -5013,7 +5013,7 @@
     "model": "locations.station",
     "pk": 502,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4506",
       "station_nm": "초당",
       "fr_code": "Y115"
@@ -5023,7 +5023,7 @@
     "model": "locations.station",
     "pk": 503,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4509",
       "station_nm": "시청·용인대",
       "fr_code": "Y117"
@@ -5033,7 +5033,7 @@
     "model": "locations.station",
     "pk": 504,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4510",
       "station_nm": "명지대",
       "fr_code": "Y118"
@@ -5043,7 +5043,7 @@
     "model": "locations.station",
     "pk": 505,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4512",
       "station_nm": "운동장·송담대",
       "fr_code": "Y120"
@@ -5053,7 +5053,7 @@
     "model": "locations.station",
     "pk": 506,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4513",
       "station_nm": "고진",
       "fr_code": "Y121"
@@ -5063,7 +5063,7 @@
     "model": "locations.station",
     "pk": 507,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4515",
       "station_nm": "둔전",
       "fr_code": "Y125"
@@ -5073,7 +5073,7 @@
     "model": "locations.station",
     "pk": 508,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4517",
       "station_nm": "전대·에버랜드",
       "fr_code": "Y126"
@@ -5083,7 +5083,7 @@
     "model": "locations.station",
     "pk": 509,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1845",
       "station_nm": "왕십리",
       "fr_code": "K210"
@@ -5093,7 +5093,7 @@
     "model": "locations.station",
     "pk": 510,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1849",
       "station_nm": "강남구청",
       "fr_code": "K213"
@@ -5103,7 +5103,7 @@
     "model": "locations.station",
     "pk": 511,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1852",
       "station_nm": "태평",
       "fr_code": "K224"
@@ -5113,7 +5113,7 @@
     "model": "locations.station",
     "pk": 512,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1855",
       "station_nm": "서현",
       "fr_code": "K228"
@@ -5123,7 +5123,7 @@
     "model": "locations.station",
     "pk": 513,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1858",
       "station_nm": "미금",
       "fr_code": "K231"
@@ -5133,7 +5133,7 @@
     "model": "locations.station",
     "pk": 514,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1861",
       "station_nm": "보정",
       "fr_code": "K234"
@@ -5143,7 +5143,7 @@
     "model": "locations.station",
     "pk": 515,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1864",
       "station_nm": "신갈",
       "fr_code": "K236"
@@ -5153,7 +5153,7 @@
     "model": "locations.station",
     "pk": 516,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1867",
       "station_nm": "청명",
       "fr_code": "K239"
@@ -5163,7 +5163,7 @@
     "model": "locations.station",
     "pk": 517,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1870",
       "station_nm": "매탄권선",
       "fr_code": "K242"
@@ -5173,7 +5173,7 @@
     "model": "locations.station",
     "pk": 518,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1878",
       "station_nm": "달월",
       "fr_code": "K251"
@@ -5183,7 +5183,7 @@
     "model": "locations.station",
     "pk": 519,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1882",
       "station_nm": "호구포",
       "fr_code": "K255"
@@ -5193,7 +5193,7 @@
     "model": "locations.station",
     "pk": 520,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1886",
       "station_nm": "송도",
       "fr_code": "K259"
@@ -5433,7 +5433,7 @@
     "model": "locations.station",
     "pk": 544,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1023",
       "station_nm": "선릉",
       "fr_code": "K215"
@@ -5443,7 +5443,7 @@
     "model": "locations.station",
     "pk": 545,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1024",
       "station_nm": "한티",
       "fr_code": "k216"
@@ -5453,7 +5453,7 @@
     "model": "locations.station",
     "pk": 546,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1213",
       "station_nm": "신원",
       "fr_code": "K131"
@@ -5463,7 +5463,7 @@
     "model": "locations.station",
     "pk": 547,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1217",
       "station_nm": "양평(경의중앙선)",
       "fr_code": "K135"
@@ -5473,7 +5473,7 @@
     "model": "locations.station",
     "pk": 548,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "1292",
       "station_nm": "공덕",
       "fr_code": "A02"
@@ -5483,7 +5483,7 @@
     "model": "locations.station",
     "pk": 549,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1327",
       "station_nm": "김유정",
       "fr_code": "P138"
@@ -5523,7 +5523,7 @@
     "model": "locations.station",
     "pk": 553,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1853",
       "station_nm": "모란",
       "fr_code": "K225"
@@ -5533,7 +5533,7 @@
     "model": "locations.station",
     "pk": 554,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1872",
       "station_nm": "매교",
       "fr_code": "K244"
@@ -5543,7 +5543,7 @@
     "model": "locations.station",
     "pk": 555,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1261",
       "station_nm": "효창공원앞",
       "fr_code": "K826"
@@ -5643,7 +5643,7 @@
     "model": "locations.station",
     "pk": 565,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3134",
       "station_nm": "테크노파크",
       "fr_code": "I134"
@@ -5663,7 +5663,7 @@
     "model": "locations.station",
     "pk": 567,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4309",
       "station_nm": "양재시민의숲",
       "fr_code": "D9"
@@ -5683,7 +5683,7 @@
     "model": "locations.station",
     "pk": 569,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3201",
       "station_nm": "검단오류",
       "fr_code": "I201"
@@ -5693,7 +5693,7 @@
     "model": "locations.station",
     "pk": 570,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3202",
       "station_nm": "왕길",
       "fr_code": "I202"
@@ -5703,7 +5703,7 @@
     "model": "locations.station",
     "pk": 571,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3203",
       "station_nm": "검단사거리",
       "fr_code": "I203"
@@ -5713,7 +5713,7 @@
     "model": "locations.station",
     "pk": 572,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3204",
       "station_nm": "마전",
       "fr_code": "I204"
@@ -5723,7 +5723,7 @@
     "model": "locations.station",
     "pk": 573,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3205",
       "station_nm": "완정",
       "fr_code": "I205"
@@ -5733,7 +5733,7 @@
     "model": "locations.station",
     "pk": 574,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3206",
       "station_nm": "독정",
       "fr_code": "I206"
@@ -5743,7 +5743,7 @@
     "model": "locations.station",
     "pk": 575,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3207",
       "station_nm": "검암",
       "fr_code": "I207"
@@ -5753,7 +5753,7 @@
     "model": "locations.station",
     "pk": 576,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3208",
       "station_nm": "검바위",
       "fr_code": "I208"
@@ -5763,7 +5763,7 @@
     "model": "locations.station",
     "pk": 577,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3209",
       "station_nm": "아시아드경기장",
       "fr_code": "I209"
@@ -5773,7 +5773,7 @@
     "model": "locations.station",
     "pk": 578,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3210",
       "station_nm": "서구청",
       "fr_code": "I210"
@@ -5783,7 +5783,7 @@
     "model": "locations.station",
     "pk": 579,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3211",
       "station_nm": "가정",
       "fr_code": "I211"
@@ -5793,7 +5793,7 @@
     "model": "locations.station",
     "pk": 580,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3212",
       "station_nm": "가정중앙시장",
       "fr_code": "I212"
@@ -5803,7 +5803,7 @@
     "model": "locations.station",
     "pk": 581,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3213",
       "station_nm": "석남",
       "fr_code": "I213"
@@ -5813,7 +5813,7 @@
     "model": "locations.station",
     "pk": 582,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3214",
       "station_nm": "서부여성회관",
       "fr_code": "I214"
@@ -5823,7 +5823,7 @@
     "model": "locations.station",
     "pk": 583,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3215",
       "station_nm": "인천가좌",
       "fr_code": "I215"
@@ -5833,7 +5833,7 @@
     "model": "locations.station",
     "pk": 584,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3216",
       "station_nm": "가재울",
       "fr_code": "I216"
@@ -5843,7 +5843,7 @@
     "model": "locations.station",
     "pk": 585,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3217",
       "station_nm": "주안국가산단",
       "fr_code": "I217"
@@ -5853,7 +5853,7 @@
     "model": "locations.station",
     "pk": 586,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3218",
       "station_nm": "주안",
       "fr_code": "I218"
@@ -5863,7 +5863,7 @@
     "model": "locations.station",
     "pk": 587,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1888",
       "station_nm": "인하대",
       "fr_code": "K261"
@@ -5873,7 +5873,7 @@
     "model": "locations.station",
     "pk": 588,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1889",
       "station_nm": "숭의",
       "fr_code": "K262"
@@ -5883,7 +5883,7 @@
     "model": "locations.station",
     "pk": 589,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1890",
       "station_nm": "신포",
       "fr_code": "K263"
@@ -5893,7 +5893,7 @@
     "model": "locations.station",
     "pk": 590,
     "fields": {
-      "line_num": "SU",
+      "line_num": "수인선",
       "station_cd": "1891",
       "station_nm": "인천",
       "fr_code": "K264"
@@ -5903,7 +5903,7 @@
     "model": "locations.station",
     "pk": 591,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3219",
       "station_nm": "시민공원",
       "fr_code": "I219"
@@ -5913,7 +5913,7 @@
     "model": "locations.station",
     "pk": 592,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3220",
       "station_nm": "석바위시장",
       "fr_code": "I220"
@@ -5923,7 +5923,7 @@
     "model": "locations.station",
     "pk": 593,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3221",
       "station_nm": "인천시청",
       "fr_code": "I221"
@@ -5933,7 +5933,7 @@
     "model": "locations.station",
     "pk": 594,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3222",
       "station_nm": "석천사거리",
       "fr_code": "I222"
@@ -5943,7 +5943,7 @@
     "model": "locations.station",
     "pk": 595,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3223",
       "station_nm": "모래내시장",
       "fr_code": "I223"
@@ -5953,7 +5953,7 @@
     "model": "locations.station",
     "pk": 596,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3224",
       "station_nm": "만수",
       "fr_code": "I224"
@@ -5963,7 +5963,7 @@
     "model": "locations.station",
     "pk": 597,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3225",
       "station_nm": "남동구청",
       "fr_code": "I225"
@@ -5973,7 +5973,7 @@
     "model": "locations.station",
     "pk": 598,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3226",
       "station_nm": "인천대공원",
       "fr_code": "I226"
@@ -5983,7 +5983,7 @@
     "model": "locations.station",
     "pk": 599,
     "fields": {
-      "line_num": "I2",
+      "line_num": "인천2",
       "station_cd": "3227",
       "station_nm": "운연",
       "fr_code": "I227"
@@ -5993,7 +5993,7 @@
     "model": "locations.station",
     "pk": 600,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1506",
       "station_nm": "곤지암",
       "fr_code": "K415"
@@ -6003,7 +6003,7 @@
     "model": "locations.station",
     "pk": 601,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1507",
       "station_nm": "신둔도예촌",
       "fr_code": "K416"
@@ -6013,7 +6013,7 @@
     "model": "locations.station",
     "pk": 602,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1508",
       "station_nm": "이천",
       "fr_code": "K417"
@@ -6023,7 +6023,7 @@
     "model": "locations.station",
     "pk": 603,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1509",
       "station_nm": "부발",
       "fr_code": "K418"
@@ -6033,7 +6033,7 @@
     "model": "locations.station",
     "pk": 604,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1510",
       "station_nm": "세종대왕릉",
       "fr_code": "K419"
@@ -6043,7 +6043,7 @@
     "model": "locations.station",
     "pk": 605,
     "fields": {
-      "line_num": "KK",
+      "line_num": "경강",
       "station_cd": "1511",
       "station_nm": "여주",
       "fr_code": "K420"
@@ -6053,7 +6053,7 @@
     "model": "locations.station",
     "pk": 606,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1305",
       "station_nm": "청량리",
       "fr_code": "P116"
@@ -6063,7 +6063,7 @@
     "model": "locations.station",
     "pk": 607,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1306",
       "station_nm": "회기",
       "fr_code": "P117"
@@ -6073,7 +6073,7 @@
     "model": "locations.station",
     "pk": 608,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1307",
       "station_nm": "중랑",
       "fr_code": "P118"
@@ -6083,7 +6083,7 @@
     "model": "locations.station",
     "pk": 609,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1220",
       "station_nm": "지평",
       "fr_code": "K138"
@@ -6093,7 +6093,7 @@
     "model": "locations.station",
     "pk": 610,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1277",
       "station_nm": "야당",
       "fr_code": "K328"
@@ -6263,7 +6263,7 @@
     "model": "locations.station",
     "pk": 627,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4314",
       "station_nm": "동천",
       "fr_code": "D14"
@@ -6273,7 +6273,7 @@
     "model": "locations.station",
     "pk": 628,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4315",
       "station_nm": "수지구청",
       "fr_code": "D15"
@@ -6283,7 +6283,7 @@
     "model": "locations.station",
     "pk": 629,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4316",
       "station_nm": "성복",
       "fr_code": "D16"
@@ -6293,7 +6293,7 @@
     "model": "locations.station",
     "pk": 630,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4317",
       "station_nm": "상현",
       "fr_code": "D17"
@@ -6303,7 +6303,7 @@
     "model": "locations.station",
     "pk": 631,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4318",
       "station_nm": "광교중앙",
       "fr_code": "D18"
@@ -6313,7 +6313,7 @@
     "model": "locations.station",
     "pk": 632,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4319",
       "station_nm": "광교",
       "fr_code": "D19"
@@ -6323,7 +6323,7 @@
     "model": "locations.station",
     "pk": 633,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4701",
       "station_nm": "북한산우이",
       "fr_code": "941"
@@ -6333,7 +6333,7 @@
     "model": "locations.station",
     "pk": 634,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4702",
       "station_nm": "솔밭공원",
       "fr_code": "942"
@@ -6343,7 +6343,7 @@
     "model": "locations.station",
     "pk": 635,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4703",
       "station_nm": "419민주묘지",
       "fr_code": "943"
@@ -6353,7 +6353,7 @@
     "model": "locations.station",
     "pk": 636,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4704",
       "station_nm": "가오리",
       "fr_code": "944"
@@ -6363,7 +6363,7 @@
     "model": "locations.station",
     "pk": 637,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4705",
       "station_nm": "화계",
       "fr_code": "945"
@@ -6373,7 +6373,7 @@
     "model": "locations.station",
     "pk": 638,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4706",
       "station_nm": "삼양",
       "fr_code": "946"
@@ -6383,7 +6383,7 @@
     "model": "locations.station",
     "pk": 639,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4707",
       "station_nm": "삼양사거리",
       "fr_code": "947"
@@ -6393,7 +6393,7 @@
     "model": "locations.station",
     "pk": 640,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4708",
       "station_nm": "솔샘",
       "fr_code": "948"
@@ -6403,7 +6403,7 @@
     "model": "locations.station",
     "pk": 641,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4709",
       "station_nm": "북한산보국문",
       "fr_code": "949"
@@ -6413,7 +6413,7 @@
     "model": "locations.station",
     "pk": 642,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4710",
       "station_nm": "정릉",
       "fr_code": "950"
@@ -6423,7 +6423,7 @@
     "model": "locations.station",
     "pk": 643,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4711",
       "station_nm": "성신여대입구",
       "fr_code": "951"
@@ -6433,7 +6433,7 @@
     "model": "locations.station",
     "pk": 644,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4712",
       "station_nm": "보문",
       "fr_code": "952"
@@ -6443,7 +6443,7 @@
     "model": "locations.station",
     "pk": 645,
     "fields": {
-      "line_num": "UI",
+      "line_num": "우이신설",
       "station_cd": "4713",
       "station_nm": "신설동",
       "fr_code": "953"
@@ -6463,7 +6463,7 @@
     "model": "locations.station",
     "pk": 647,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3111",
       "station_nm": "귤현",
       "fr_code": "I111"
@@ -6473,7 +6473,7 @@
     "model": "locations.station",
     "pk": 648,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3114",
       "station_nm": "계산",
       "fr_code": "I114"
@@ -6483,7 +6483,7 @@
     "model": "locations.station",
     "pk": 649,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3115",
       "station_nm": "경인교대입구",
       "fr_code": "I115"
@@ -6493,7 +6493,7 @@
     "model": "locations.station",
     "pk": 650,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3119",
       "station_nm": "부평시장",
       "fr_code": "I119"
@@ -6503,7 +6503,7 @@
     "model": "locations.station",
     "pk": 651,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3122",
       "station_nm": "부평삼거리",
       "fr_code": "I122"
@@ -6513,7 +6513,7 @@
     "model": "locations.station",
     "pk": 652,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3126",
       "station_nm": "인천터미널",
       "fr_code": "I126"
@@ -6523,7 +6523,7 @@
     "model": "locations.station",
     "pk": 653,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3130",
       "station_nm": "원인재",
       "fr_code": "I130"
@@ -6533,7 +6533,7 @@
     "model": "locations.station",
     "pk": 654,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3133",
       "station_nm": "캠퍼스타운",
       "fr_code": "I133"
@@ -6543,7 +6543,7 @@
     "model": "locations.station",
     "pk": 655,
     "fields": {
-      "line_num": "I",
+      "line_num": "인천1",
       "station_cd": "3137",
       "station_nm": "센트럴파크",
       "fr_code": "I137"
@@ -6593,7 +6593,7 @@
     "model": "locations.station",
     "pk": 660,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4208",
       "station_nm": "계양",
       "fr_code": "A06"
@@ -6603,7 +6603,7 @@
     "model": "locations.station",
     "pk": 661,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4212",
       "station_nm": "공항화물청사",
       "fr_code": "A09"
@@ -6613,7 +6613,7 @@
     "model": "locations.station",
     "pk": 662,
     "fields": {
-      "line_num": "S",
+      "line_num": "신분당선",
       "station_cd": "4310",
       "station_nm": "청계산입구",
       "fr_code": "D10"
@@ -6623,7 +6623,7 @@
     "model": "locations.station",
     "pk": 663,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4501",
       "station_nm": "기흥",
       "fr_code": "Y110"
@@ -6633,7 +6633,7 @@
     "model": "locations.station",
     "pk": 664,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4504",
       "station_nm": "어정",
       "fr_code": "Y113"
@@ -6643,7 +6643,7 @@
     "model": "locations.station",
     "pk": 665,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4508",
       "station_nm": "삼가",
       "fr_code": "Y116"
@@ -6653,7 +6653,7 @@
     "model": "locations.station",
     "pk": 666,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4511",
       "station_nm": "김량장",
       "fr_code": "Y119"
@@ -6663,7 +6663,7 @@
     "model": "locations.station",
     "pk": 667,
     "fields": {
-      "line_num": "E",
+      "line_num": "용인경전철",
       "station_cd": "4514",
       "station_nm": "보평",
       "fr_code": "Y123"
@@ -6693,7 +6693,7 @@
     "model": "locations.station",
     "pk": 670,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "4217",
       "station_nm": "영종",
       "fr_code": "A072"
@@ -6703,7 +6703,7 @@
     "model": "locations.station",
     "pk": 671,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1011",
       "station_nm": "옥수",
       "fr_code": "K114"
@@ -6713,7 +6713,7 @@
     "model": "locations.station",
     "pk": 672,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1014",
       "station_nm": "청량리",
       "fr_code": "K117"
@@ -6723,7 +6723,7 @@
     "model": "locations.station",
     "pk": 673,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1025",
       "station_nm": "도곡",
       "fr_code": "K217"
@@ -6733,7 +6733,7 @@
     "model": "locations.station",
     "pk": 674,
     "fields": {
-      "line_num": "B",
+      "line_num": "분당선",
       "station_cd": "1030",
       "station_nm": "수서",
       "fr_code": "K221"
@@ -6743,7 +6743,7 @@
     "model": "locations.station",
     "pk": 675,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1203",
       "station_nm": "망우",
       "fr_code": "K121"
@@ -6753,7 +6753,7 @@
     "model": "locations.station",
     "pk": 676,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1206",
       "station_nm": "도농",
       "fr_code": "K124"
@@ -6763,7 +6763,7 @@
     "model": "locations.station",
     "pk": 677,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1209",
       "station_nm": "도심",
       "fr_code": "K127"
@@ -6773,7 +6773,7 @@
     "model": "locations.station",
     "pk": 678,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1212",
       "station_nm": "양수",
       "fr_code": "K130"
@@ -6783,7 +6783,7 @@
     "model": "locations.station",
     "pk": 679,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1214",
       "station_nm": "국수",
       "fr_code": "K132"
@@ -6793,7 +6793,7 @@
     "model": "locations.station",
     "pk": 680,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1218",
       "station_nm": "원덕",
       "fr_code": "K136"
@@ -6803,7 +6803,7 @@
     "model": "locations.station",
     "pk": 681,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1251",
       "station_nm": "서울(경의중앙선)",
       "fr_code": "P313"
@@ -6813,7 +6813,7 @@
     "model": "locations.station",
     "pk": 682,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1264",
       "station_nm": "홍대입구",
       "fr_code": "K314"
@@ -6823,7 +6823,7 @@
     "model": "locations.station",
     "pk": 683,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1267",
       "station_nm": "수색",
       "fr_code": "K317"
@@ -6833,7 +6833,7 @@
     "model": "locations.station",
     "pk": 684,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1271",
       "station_nm": "능곡",
       "fr_code": "K321"
@@ -6843,7 +6843,7 @@
     "model": "locations.station",
     "pk": 685,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1274",
       "station_nm": "풍산",
       "fr_code": "K325"
@@ -6853,7 +6853,7 @@
     "model": "locations.station",
     "pk": 686,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1278",
       "station_nm": "운정",
       "fr_code": "K329"
@@ -6863,7 +6863,7 @@
     "model": "locations.station",
     "pk": 687,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1282",
       "station_nm": "월롱",
       "fr_code": "K333"
@@ -6873,7 +6873,7 @@
     "model": "locations.station",
     "pk": 688,
     "fields": {
-      "line_num": "K",
+      "line_num": "경의중앙",
       "station_cd": "1290",
       "station_nm": "용산",
       "fr_code": "K110"
@@ -6883,7 +6883,7 @@
     "model": "locations.station",
     "pk": 689,
     "fields": {
-      "line_num": "A",
+      "line_num": "공항철도",
       "station_cd": "1294",
       "station_nm": "디지털미디어시티",
       "fr_code": "A04"
@@ -6893,7 +6893,7 @@
     "model": "locations.station",
     "pk": 690,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1311",
       "station_nm": "신내",
       "fr_code": "P122"
@@ -6903,7 +6903,7 @@
     "model": "locations.station",
     "pk": 691,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1314",
       "station_nm": "퇴계원",
       "fr_code": "P125"
@@ -6913,7 +6913,7 @@
     "model": "locations.station",
     "pk": 692,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1317",
       "station_nm": "평내호평",
       "fr_code": "P128"
@@ -6923,7 +6923,7 @@
     "model": "locations.station",
     "pk": 693,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1320",
       "station_nm": "대성리",
       "fr_code": "P131"
@@ -6933,7 +6933,7 @@
     "model": "locations.station",
     "pk": 694,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1323",
       "station_nm": "가평",
       "fr_code": "P134"
@@ -6943,7 +6943,7 @@
     "model": "locations.station",
     "pk": 695,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1326",
       "station_nm": "강촌",
       "fr_code": "P137"
@@ -6953,7 +6953,7 @@
     "model": "locations.station",
     "pk": 696,
     "fields": {
-      "line_num": "G",
+      "line_num": "경춘선",
       "station_cd": "1329",
       "station_nm": "춘천",
       "fr_code": "P140"

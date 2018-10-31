@@ -3,6 +3,7 @@ from . import models #. means same folder
 
 # Register your models here.
 
+
 @admin.register(models.Station)
 class StationAdmin(admin.ModelAdmin):
     list_display_links = (

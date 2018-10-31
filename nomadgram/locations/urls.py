@@ -6,7 +6,7 @@ app_name = "locations"
 urlpatterns = [
     url(
         regex=r'^$',
-        view=views.Images.as_view(),
+        view=views.Locations.as_view(),
         name='locations'
     ),
 ]

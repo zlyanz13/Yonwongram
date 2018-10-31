@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 from nomadgram.users import models as user_models #to prevent Conflicts Using 'as'
+from nomadgram.locations import models as location_models #to prevent Conflicts Using 'as'
 from taggit.managers import TaggableManager
 from django.contrib.humanize.templatetags.humanize import naturaltime
 from django.core.validators import MaxValueValidator, MinValueValidator
@@ -23,7 +24,7 @@ class Image(TimeStampedModel):
     """Comment Model"""
 
     file = models.ImageField()
-    location = models.CharField(max_length = 140)
+    location = models.ForeignKey(location_models.Location, on_delete =models.PROTECT)
     caption = models.TextField()
     creator = models.ForeignKey(user_models.User, on_delete =models.SET_NULL, null = True,  related_name='images')
     stars = models.IntegerField(default = 0, validators=[MinValueValidator(0), MaxValueValidator(5)])
@@ -43,6 +44,13 @@ class Image(TimeStampedModel):
 
     def __str__(self):
         return '{} - {}'.format(self.location, self.caption)
+
+    def save(self, *args, **kwargs):
+        location_models.Starpoint.objects.create(
+            points=self.stars, 
+            creator=self.creator, 
+            location=self.location)
+        super(Image, self).save(*args, **kwargs)
 
     class Meta:
         ordering = ['-created_at']
@@ -66,4 +74,5 @@ class Like(TimeStampedModel) :
     image = models.ForeignKey(Image, on_delete=models.SET_NULL, null = True, related_name = 'likes')
 
     def __str__(self):
-        return 'User : {} - Image Caption : {}'.format(self.creator.username, self.image.caption)
+        return 'User : {} - Image : {}'.format(self.creator.username, self.image.id)
+        

@@ -1,7 +1,9 @@
 from rest_framework import routers, serializers, viewsets
 from . import models
 from nomadgram.users import models as user_models
+from nomadgram.locations import models as location_models
 from taggit_serializer.serializers import TagListSerializerField, TaggitSerializer
+from nomadgram.locations import serializers as location_serializers
 
 class CountImageSerializer(serializers.ModelSerializer):
     
@@ -44,13 +46,13 @@ class LikeSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-
 class ImageSerializer(TaggitSerializer ,serializers.ModelSerializer):
 
     tags = TagListSerializerField()
     comments = CommentSerializer(many = True)
     creator = FeedUserSerializer()
     is_liked = serializers.SerializerMethodField()
+    location = location_serializers.LocationSerializer()
 
     class Meta:
         model = models.Image

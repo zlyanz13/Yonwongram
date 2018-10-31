@@ -6,6 +6,7 @@ import PhotoComments from 'components/PhotoComments';
 import TimeStamp from 'components/TimeStamp';
 import CommentBox from 'components/CommentBox';
 import UserList from 'components/UserList';
+import StationCircle from '../StationCircle';
 
 const FeedPhoto = (props, context) => {
   return (
@@ -18,7 +19,12 @@ const FeedPhoto = (props, context) => {
         />
         <div className={styles.headerColumn}>
           <span className={styles.creator}>{props.creator.username}</span>
-          <span className={styles.location}>{props.location}</span>
+          <span className={styles.location}>
+            {props.location.station.lines.map(line => (<StationCircle key={line.line_num} line={line.line_num}/>))} {props.location.station.station_nm} 
+          </span>
+          <span className={styles.location}>
+            {props.location.name} - {props.location.starpoint_avg}
+          </span>
         </div>
       </header>
 
@@ -42,10 +48,7 @@ const FeedPhoto = (props, context) => {
         <CommentBox photoId={props.id} />
       </div>
       {props.seeingLikes &&
-        <UserList
-          title={context.t ('Likes')}
-          closeLikes={props.closeLikes}
-        />}
+        <UserList title={context.t ('Likes')} closeLikes={props.closeLikes} />}
     </div>
   );
 };
@@ -57,11 +60,22 @@ FeedPhoto.propTypes = {
     username: PropTypes.string.isRequired,
   }).isRequired,
 
-  location: PropTypes.string.isRequired,
+  location: PropTypes.shape ({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    starpoint_avg: PropTypes.number.isRequired,
+    station: PropTypes.shape ({
+      id: PropTypes.number.isRequired,
+      station_nm: PropTypes.string.isRequired,
+      lines: PropTypes.arrayOf (
+        PropTypes.shape ({line_num: PropTypes.string.isRequired})
+      ),
+    }),
+  }).isRequired,
   file: PropTypes.string.isRequired,
   like_count: PropTypes.number.isRequired,
   caption: PropTypes.string.isRequired,
-  stars : PropTypes.number.isRequired,
+  stars: PropTypes.number.isRequired,
 
   comments: PropTypes.arrayOf (
     PropTypes.shape ({
@@ -78,14 +92,14 @@ FeedPhoto.propTypes = {
   is_liked: PropTypes.bool.isRequired,
   seeingLikes: PropTypes.bool.isRequired,
   openLikes: PropTypes.func.isRequired,
-  closeLikes: PropTypes.func.isRequired, 
-  userList: PropTypes.arrayOf(
-    PropTypes.shape({
+  closeLikes: PropTypes.func.isRequired,
+  userList: PropTypes.arrayOf (
+    PropTypes.shape ({
       profile_image: PropTypes.string,
       username: PropTypes.string.isRequired,
-      name: PropTypes.string
+      name: PropTypes.string,
     }).isRequired
-  )
+  ),
 };
 FeedPhoto.contextTypes = {
   t: PropTypes.func.isRequired,
