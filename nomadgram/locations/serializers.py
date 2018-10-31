@@ -17,7 +17,7 @@ class StationSerializer(serializers.ModelSerializer):
 
     def get_lines(self, obj) :
         try : 
-            line_set = list(models.Station.objects.filter(station_nm = obj.station_nm).values('line_num'))
+            line_set = list(models.Station.objects.filter(station_nm = obj.station_nm).order_by('line_num').values('line_num'))
             return line_set
         except models.Station.DoesNotExist :
             return None
