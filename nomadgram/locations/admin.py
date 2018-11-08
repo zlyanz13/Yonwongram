@@ -37,7 +37,6 @@ class LocationAdmin(admin.ModelAdmin):
 
     list_filter = (
         'name',
-        'station'
     )
     list_display = (
         'name',

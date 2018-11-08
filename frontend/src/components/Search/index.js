@@ -11,7 +11,7 @@ const mapStateToProps = (state, ownProps) =>{
 }
 
 const mapDispatchToProps = (dispatch, ownProps) => {
-    const {match : {params : { searchTerm}}} = ownProps;
+    const {match : {params : {searchTerm}}} = ownProps;
   return {
     searchByTerm: () => {
       dispatch (userActions.searchByTerm (searchTerm));

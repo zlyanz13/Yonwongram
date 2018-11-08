@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: $max-card-width;
+  margin: 0 auto;
+  align-items: center;
+  .loading {
+    margin-top: 30px;
+  }
+  .station {
+    width: 100%;
+    .station-info {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 30px;
+      width: fit-content;
+      height: 80px;
+      border: 5px solid $sinsigaji-yellow;
+      border-radius: 70px;
+      align-items: center;
+      background-color: white;
+      margin-left : 10px;
+      .circle {
+        flex-direction: row;
+        display: flex;
+        &:first-child {
+          margin-left: 20px;
+        }
+      }
+      .station-name {
+        display: flex;
+        height: 45px;
+        font-size: 40px;
+        font-weight: 600;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 40px;
+      }
+    }
+  }
+  .location-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+/*
+            .ganpan {
+                margin-left: 10px;
+                display: flex;
+                flex-direction: row;
+                border: 3px solid red;
+                border-radius: 40px;
+                align-items: center;
+            }
+*/

@@ -18,6 +18,7 @@ const PhotoActions = (props, context) => (
           name="rating"
         />
       </span>
+      <div className={styles.likeBox}>
       <span className={styles.likes} onClick={props.openLikes}>
         {props.number}{' '}
         {props.number <= 1 ? context.t('like') : context.t('likes')}
@@ -27,6 +28,7 @@ const PhotoActions = (props, context) => (
           ? <Ionicon icon="md-heart" fontSize="28px" color="#EB4B59" />
           : <Ionicon icon="md-heart-outline" fontSize="28px" color="#EB4B59" />}
       </span>
+      </div>
     </div>
 
   </div>

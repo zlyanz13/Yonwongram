@@ -8,7 +8,8 @@ import Navigation from 'components/Navigation';
 import Feed from "components/Feed"
 import Explore from 'components/Explore';
 import Search from '../Search';
-
+import StationSpace from 'components/StationSpace'
+import LocationReview from 'components/LocationReview'
 
 const App = props => [
   // Nav.
@@ -26,6 +27,8 @@ const PrivateRoutes = props => (
     <Route exact path="/" component={Feed} />
     <Route exact path="/explore" component={Explore} />
     <Route exact path="/search/:searchTerm" component={Search} />
+    <Route exact path="/station/:stationName" component={StationSpace} />
+    <Route exact path='/location/:locationId' component={LocationReview}/>
     <Route exact path="/subway" render={() => 'subway'} />
     <Route exact path="/profile" render={() => 'profile'} />
   </Switch>

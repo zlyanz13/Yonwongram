@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: $max-card-width;
+    margin: 0 auto;
+    align-items: center;
+    .loading {
+        margin-top: 30px;
+    }
+    .review-container {
+        width: 100%;
+        max-width: $max-card-width;
+        display: flex;
+        flex-direction: column;
+        .title {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+            justify-content: space-between;
+            .station-container {
+                display: flex;
+                height : fit-content;
+                cursor: pointer;
+                background-color: white;
+                border: 1px solid $sinsigaji-yellow;
+                border-radius: 20px;
+
+                .station {
+                    display: flex;
+                    align-items: center;
+                    margin : 7px 15px;
+                    .station-name {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .location-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center; //border: 2px solid $sinsigaji-yellow;
+                border-radius: 5px;
+                background-color: white;
+                border: 2px solid $sinsigaji-yellow;
+                .location-name {
+                    font-size: 28px;
+                    font-weight: 660;
+                    margin-right: 20px;
+                    margin-left: 15px;
+                }
+                .ratings {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 19px;
+                    justify-content: center;
+                    margin-right: 15px;
+                    .starrating {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .eval {
+                        display: flex;
+                        font-size: $small-font-size;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .review-list {
+        justify-content: center;
+    }
+}

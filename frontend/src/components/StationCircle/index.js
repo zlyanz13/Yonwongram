@@ -25,15 +25,19 @@ import noPhoto from 'images/noPhoto.png';
 const StationCircle = props => (
   <span>
     <img
-      src={getCircle(props.line)}
+      src={getCircle (props.line)}
       alt={props.line}
-      className={styles.circle}
+      className={
+        props.big
+          ? styles.bigcircle
+          : props.middle ? styles.middlecircle : styles.smallcircle
+      }
     />
-    {console.log(getCircle(props.line))}
+
   </span>
 );
 
-function getCircle(line) {
+function getCircle (line) {
   switch (line) {
     case '1':
       return line1;
@@ -81,6 +85,7 @@ function getCircle(line) {
 
 StationCircle.propTypes = {
   line: PropTypes.string.isRequired,
+  big: PropTypes.bool,
 };
 
 export default StationCircle;

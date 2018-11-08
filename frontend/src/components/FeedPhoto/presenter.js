@@ -7,6 +7,7 @@ import TimeStamp from 'components/TimeStamp';
 import CommentBox from 'components/CommentBox';
 import UserList from 'components/UserList';
 import StationCircle from '../StationCircle';
+import StarRatings from 'react-star-ratings';
 
 const FeedPhoto = (props, context) => {
   return (
@@ -19,12 +20,33 @@ const FeedPhoto = (props, context) => {
         />
         <div className={styles.headerColumn}>
           <span className={styles.creator}>{props.creator.username}</span>
-          <span className={styles.location}>
-            {props.location.station.lines.map(line => (<StationCircle key={line.line_num} line={line.line_num}/>))} {props.location.station.station_nm} 
-          </span>
-          <span className={styles.location}>
-            {props.location.name} - {props.location.starpoint_avg}
-          </span>
+
+          <div className={styles.locationInfo}>
+            <span className={styles.station} onClick={props.searchStation}>
+              {props.location.station.lines.map (line => (
+                <StationCircle
+                  key={line.line_num}
+                  line={line.line_num}
+                  big={false}
+                  middle={false}
+                />
+              ))}
+              {' '}
+              {props.location.station.station_nm}
+            </span>
+            <span className={styles.location} onClick={props.searchLocation}>
+              {props.location.name}{' '}
+              <StarRatings
+                rating={props.location.starpoint_avg}
+                starRatedColor="#FFB12F"
+                starHoverColor="#FFB12F"
+                numberOfStars={5}
+                starDimension="15px"
+                starSpacing="0"
+                name="rating"
+              />
+            </span>
+          </div>
         </div>
       </header>
 
@@ -100,6 +122,9 @@ FeedPhoto.propTypes = {
       name: PropTypes.string,
     }).isRequired
   ),
+
+  searchStation: PropTypes.func.isRequired,
+  searchLocation: PropTypes.func.isRequired,
 };
 FeedPhoto.contextTypes = {
   t: PropTypes.func.isRequired,

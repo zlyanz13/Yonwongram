@@ -12,20 +12,32 @@ class Container extends Component {
         {...this.state}
         openLikes={this._openLikes}
         closeLikes={this._closeLikes}
+        searchStation={this._searchStation}
+        searchLocation={this._searchLocation}
       />
     );
   }
   _openLikes = () => {
-    const {getPhotoLikes} = this.props;
+    const {getPhotoLikes, likes} = this.props;
     this.setState ({
       seeingLikes: true,
     });
-    getPhotoLikes ();
+    if (!likes) {
+      getPhotoLikes ();
+    }
   };
   _closeLikes = () => {
     this.setState ({
       seeingLikes: false,
     });
+  };
+  _searchStation = () => {
+    const {location: {station: {station_nm}}, searchStation} = this.props;
+    searchStation (station_nm);
+  };
+  _searchLocation = () => {
+    const {location: {id}, searchLocation} = this.props;
+    searchLocation (id);
   };
 }
 

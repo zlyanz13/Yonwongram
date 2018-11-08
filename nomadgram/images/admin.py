@@ -25,7 +25,7 @@ class ImageAdmin(admin.ModelAdmin):
         'stars',
         'created_at', 
         'updated_at',
-        'like_count'
+        'like_count',
     )
 
 @admin.register(models.Like)

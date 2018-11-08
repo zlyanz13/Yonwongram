@@ -25,6 +25,10 @@ class Station(models.Model):
     class Meta:
         ordering = ['station_nm']
     def __str__(self):
+        
+        """line_set = list(Station.objects.filter(station_nm = self.station_nm).order_by('line_num').values('line_num'))
+        dd =[]
+        dd = [dd['line_num'] for dd in line_set]"""
         return '{} - Line : {}'.format(self.station_nm, self.line_num)
 
 @python_2_unicode_compatible
@@ -38,8 +42,23 @@ class Location(models.Model):
         p = self.starpoints.all().aggregate(Avg('points')).get('points__avg')
         return round(p,2) if p else 0
 
+    @property
+    def starpoint_count(self):
+        return self.starpoints.all().count()
+
     def __str__(self):
         return '{} : {}역 - Line {}'.format(self.name, self.station.station_nm, self.station.line_num)
+
+    def getStationName(self):
+        return self.station.station_nm
+
+    def save(self, *args, **kwargs):
+        try :
+            obj=Location.objects.get(station__station_nm__contains=self.getStationName(), name=self.name)
+            if obj:
+                return;
+        except Location.DoesNotExist : 
+            super(Location, self).save(*args, **kwargs)
 
 
 @python_2_unicode_compatible

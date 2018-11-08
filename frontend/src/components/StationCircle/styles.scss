@@ -1,5 +1,21 @@
-.circle {
-    width: 13px;
-    height: 13px;
+.smallcircle {
+    width: 18px;
+    height: 18px;
     margin-right: 3px
+}
+
+.middlecircle {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-right: 4px;
+}
+
+.bigcircle {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
 }

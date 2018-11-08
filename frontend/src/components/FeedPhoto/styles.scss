@@ -2,7 +2,7 @@
     @include boxBorder(yes);
     width: 100%;
     max-width: $max-card-width;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     @include breakpoint("phone") {
         background-color: transparent;
         border: 0;
@@ -13,8 +13,11 @@
     }
     border-radius: 10px;
     .profile-photo {
+        border-radius: 32px;
         width: 32px;
-        max-height: 32px;
+        height: 32px;
+        overflow: hidden;
+        object-fit: cover;
     }
     .header {
         padding: 15px;
@@ -29,13 +32,31 @@
         .header-column {
             margin-left: 10px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
             .creator {
+                display: flex;
                 font-weight: 600;
                 margin-bottom: 5px;
+                align-items: center;
             }
-            .location {
-                font-size: $small-font-size;
+            .location-info {
+                .station {
+                    display: flex;
+                    align-items: center;
+                    font-size: 15px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    margin-bottom: 3px;
+                    justify-content: flex-end;
+                }
+                .location {
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    font-size: $small-font-size;
+                }
             }
         }
     }

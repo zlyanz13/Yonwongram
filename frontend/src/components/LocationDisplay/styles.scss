@@ -1,0 +1,36 @@
+.location-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $light-grey;
+  border-radius: 15px;
+  margin: 5px;
+  width: fit-content;
+  background-color: white;
+  
+  .profile-background {
+    margin: 10px;
+    margin-bottom: 20px;
+    .profile-image {
+      border-radius: 165px;
+      width: 165px;
+      height: 165px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+  }
+  .location-name{
+      font-size : 20px;
+      font-weight: 600;
+      margin-bottom: 5px;
+  }
+  .evaluated{
+      margin-bottom: 10px;
+      font-size: $small-font-size;
+  }
+  .starrating{
+      margin-bottom: 10px;
+  }
+}

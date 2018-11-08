@@ -98,3 +98,11 @@ class InputImageSerializer(serializers.ModelSerializer):
             'location',
             'caption',            
         )
+
+class LocationProfileSerializer(serializers.ModelSerializer):   
+
+    class Meta :
+        model = models.Image
+        fields = (
+            'id', 'file',          
+        )

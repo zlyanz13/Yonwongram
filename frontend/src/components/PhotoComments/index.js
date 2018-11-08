@@ -59,7 +59,6 @@ class Comment extends Component {
   };
 
   _deleteComment = dispatch => {
-    console.log ('Delete Comment');
     const {commentId, deleteComment} = this.props;
 
     deleteComment (commentId);
@@ -73,11 +72,13 @@ class Comment extends Component {
         onMouseLeave={this.handleMouseLeave}
       >
         <span className={styles.username}>{this.props.username}</span>
-        <span className={styles.message}>{this.props.comment}</span>
+        <div className={styles.commentbox}>
+        <div className={styles.message}>{this.props.comment}</div>
         {this.state.isHovering &&
           <span className={styles.xbox} onClick={this._deleteComment}>
             <Ionicon icon="md-close" fontSize="16px" color="black" />
           </span>}
+          </div>
       </li>
     );
   }

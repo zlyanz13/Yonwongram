@@ -4,21 +4,20 @@
         margin-bottom: 5px;
         display: flex;
         flex-direction: row;
-        .stars {
-            margin-right: 350px;
-        }
-        .likes {
-            font-weight: 600;
-            font-size: $normal-font-size + 1;
-            margin-top : 5px;
-            margin-right: 5px;
-            cursor: pointer;
-        }
-        .icon {
-            justify-content: flex-end;
-            cursor: pointer;
-            &:first-child {
-                margin-right: 10px;
+        justify-content: space-between;
+        .stars {}
+        .like-box {
+            display: flex;
+            align-items: center;
+            .likes {
+                font-weight: 600;
+                font-size: $normal-font-size + 1;
+                margin-right: 5px;
+                cursor: pointer;
+            }
+            .icon {
+                cursor: pointer;
+                margin-right: 5px;
                 margin-top: 3px;
             }
         }

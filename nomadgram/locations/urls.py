@@ -4,12 +4,29 @@ from . import views
 app_name = "locations"
 
 urlpatterns = [
+
     url(
-        regex=r'^$',
-        view=views.Locations.as_view(),
-        name='locations'
+        regex=r'^station/(?P<station_name>\w+)/$',
+        view=views.StationImages.as_view(),
+        name='station_images'
+    ),
+    url(
+        regex=r'^station/(?P<station_name>\w+)/lines/$',
+        view=views.StationLines.as_view(),
+        name='station_lines'
+    ),
+    url(
+        regex=r'^(?P<location_id>[0-9]+)/$',
+        view=views.LocationImages.as_view(),
+        name='location_images'
+    ),
+    url(
+        regex=r'^(?P<location_id>[0-9]+)/info/$',
+        view=views.LocationInfo.as_view(),
+        name='location_info'
     ),
 ]
+"""    """
 """
 urlpatterns = [
     url(
