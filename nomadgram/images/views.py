@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from . import models, serializers
 from nomadgram.users import models as user_models
+from nomadgram.locations import models as location_models
 from nomadgram.users import serializers as user_serializers
         
 # Create your views here.
@@ -38,8 +39,35 @@ class Images(APIView):
         return Response(serializer.data)
     
     def post(self, request, format=None):
-        
         user = request.user
+        data = request.data
+        print(data)
+               
+        station_nm = data.get("station")
+        location = data.get("location")
+        stars = int('0'+data.get("stars"))
+        caption = data.get("caption")
+        tags = data.get("tags")
+        file = data.get("file")
+
+        try : 
+            found_location = location_models.Location.objects.get(
+                station__station_nm = station_nm, 
+                name=location)
+
+            print('location fount',found_location)
+        except location_models.Location.DoesNotExist: 
+            station=location_models.Station.objects.filter(station_nm = station_nm).order_by('line_num')[0]
+            new_location=location_models.Location.objects.create(
+            name=location, 
+            station = station)
+
+        models.Image.objects.create(file= file,location = new_location, 
+        stars=stars, tags=tags, caption=caption, creator=user)
+
+        return Response(None, status= status.HTTP_201_CREATED)
+
+        """user = request.user
 
         serializer = serializers.InputImageSerializer(data=request.data)
 
@@ -50,7 +78,7 @@ class Images(APIView):
             return Response(data = serializer.data, status= status.HTTP_201_CREATED)
         
         else :
-            return Response(data = serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            return Response(data = serializer.errors, status=status.HTTP_400_BAD_REQUEST)"""
 
 class LikeImage(APIView):
     
@@ -170,12 +198,15 @@ class Search(APIView):
 
             images = models.Image.objects.filter(tags__name__in = hashtags).distinct()
 
-            serializer = serializers.CountImageSerializer(images, many=True)
+            serializer = serializers.ImageSerializer(images, many=True, context={'request' : request})
 
             return Response(data = serializer.data, status= status.HTTP_200_OK)
 
         else :
-            return Response(status= status.HTTP_400_BAD_REQUEST)
+            
+            images = models.Image.objects.all()[:20]
+            serializer = serializers.ImageSerializer(images, many=True, context={'request' : request})
+            return Response(data = serializer.data, status= status.HTTP_200_OK)
 
 class ModerateComment(APIView):
     def delete(self, request, image_id, comment_id, format=None):

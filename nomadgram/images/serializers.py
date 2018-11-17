@@ -67,7 +67,8 @@ class ImageSerializer(TaggitSerializer ,serializers.ModelSerializer):
             'tags',
             'natural_time',
             'is_liked',
-            'stars'
+            'stars',
+            'is_vertical'
         )
           
     def get_is_liked(self, obj) :
@@ -96,7 +97,8 @@ class InputImageSerializer(serializers.ModelSerializer):
         fields = (
             'file',
             'location',
-            'caption',            
+            'caption',
+            'tags'            
         )
 
 class LocationProfileSerializer(serializers.ModelSerializer):   
