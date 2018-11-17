@@ -18,4 +18,8 @@ django-redis==4.9.0  # https://github.com/niwinz/django-redis
 djangorestframework==3.7.7  # https://github.com/encode/django-rest-framework
 coreapi==2.3.3  # https://github.com/core-api/python-client
 
+
 # Your custom requirements go here
+django-taggit==0.22.1
+django-taggit-serializer==0.1.5
+django-imagekit==4.0.2
