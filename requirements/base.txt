@@ -27,3 +27,4 @@ djangorestframework-jwt==1.11.0
 django-taggit==0.22.2
 django-taggit-serializer==0.1.5
 django-cors-headers==2.2.0
+django-rest-auth==0.9.3
