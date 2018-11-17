@@ -209,10 +209,10 @@ LOGGING = {
 }
 
 SENTRY_CELERY_LOGLEVEL = env.int('DJANGO_SENTRY_LOG_LEVEL', logging.INFO)
-RAVEN_CONFIG = {
-    'CELERY_LOGLEVEL': env.int('DJANGO_SENTRY_LOG_LEVEL', logging.INFO),
-    'DSN': SENTRY_DSN
-}
+#RAVEN_CONFIG = {
+#    'CELERY_LOGLEVEL': env.int('DJANGO_SENTRY_LOG_LEVEL', logging.INFO),
+#    'DSN': SENTRY_DSN
+#}
 
 # Your stuff...
 # ------------------------------------------------------------------------------
